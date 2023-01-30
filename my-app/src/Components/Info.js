@@ -1,3 +1,5 @@
+import React from "react";
+
 function Info() {
     <button>Info</button>
     return(
@@ -6,3 +8,5 @@ function Info() {
      </p>
     )
 }
+
+export default Info;

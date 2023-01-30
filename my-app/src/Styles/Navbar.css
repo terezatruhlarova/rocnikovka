@@ -8,8 +8,8 @@
 }
 
 :root{
-    --mainColor: rgb(199, 147, 235);
-    --mainColorLight: rgb(212, 176, 238);
+    --mainColor: rgb(126, 120, 239);
+    --mainColorLight: rgb(126, 120, 239);
     --secondaryColor: rgb(180, 205, 239);
     --textColor: rgb(0, 0, 0);
 }
