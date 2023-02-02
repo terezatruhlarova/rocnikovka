@@ -1,11 +1,12 @@
 import React from "react";
+import "../Styles/Info.css"
 
 function Info() {
-    <button>Info</button>
     return(
-     <p>
-        Contacts:
-     </p>
+    <>
+        <p>phone number: +420 732 164 953</p>
+        <p>email: terezatruhlarova@student.spsmb.cz</p>>
+    </>
     )
 }
 

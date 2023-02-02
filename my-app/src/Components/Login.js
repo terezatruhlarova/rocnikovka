@@ -29,7 +29,7 @@ function Login(){
     }
 
     return(
-    <>
+    <div className="login">
         {success ? ( 
             <section>
                 
@@ -40,7 +40,7 @@ function Login(){
                 </p>
             </section>
         ):(
-        <section>
+        <section className="username">
            <p ref={errRef} className = {errMsg ? "errmgs" : "offscreen"} aria-live="assertive"></p>
            <h1>Sign In</h1>
            <form onSubmit={handleSubmit} >
@@ -74,7 +74,7 @@ function Login(){
         </section>
              
         )}
-        </>
+       </div>
     )
 }
 
