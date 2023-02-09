@@ -1,6 +1,7 @@
 import React from "react";
 import { useRef, useState, useEffect, useContext} from "react";
 import "../Styles/Login.css"
+import { Link } from "react-router-dom";
 
 
 function Login(){
@@ -36,7 +37,9 @@ function Login(){
                 <h1>You are logged in! </h1>
                 <br/>
                 <p>
-                    <a href="#">Go to Home</a>
+                <Link to='/'>
+                    Go to Home
+                </Link>
                 </p>
             </section>
         ):(
@@ -65,12 +68,6 @@ function Login(){
             />
             <button>Sign In</button>
            </form>
-            <p>
-                Need an Account? <br/>
-                <span className="line">
-                    <a href="#">Sign Up</a>
-                </span>
-            </p>
         </section>
              
         )}
