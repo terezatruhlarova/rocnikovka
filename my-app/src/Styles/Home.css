@@ -1,3 +1,45 @@
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,300;0,400;1,700&display=swap');
+.logo{
+    height: 350px;
+    margin-top: 170px;
+    margin-left: 220px;
 
+}
 
+.logo2{
+    height: 350px;
+    margin-top: 170px;
+    margin-left: 220px;
+    
+}
+.logo3{
+    height: 350px;
+    margin-top: 170px;
+    margin-left: 220px;
+   
+}
+.logo:hover {
+    transform: scale(1.2); 
+    transition: transform 0.2s ease-in-out; 
+  }
+.logo2:hover {
+    transform: scale(1.2); 
+    transition: transform 0.2s ease-in-out; 
+  }
+.logo3:hover {
+    transform: scale(1.2); 
+    transition: transform 0.2s ease-in-out; 
+  }
+  img {
+    border: 5px solid red;
+    background-color: black;
+  }
+ p{
+    position: absolute;
+    top: 50%
+ }
+ .WOMEN{
+    position: absolute;
+    text-align: center;
+    margin-top: 240px;
+    margin-left: 240px;
+ }

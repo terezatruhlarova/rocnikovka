@@ -14,7 +14,7 @@ function Navbar(){
     }
     return(
         <header>
-            <h3>SHEIN</h3>
+            <h3>SHINE</h3>
             <nav ref={navRef}>
                 <a href="/">Home</a>
                 <a href="/women">Women</a>

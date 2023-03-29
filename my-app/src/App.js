@@ -7,7 +7,7 @@ import Home from './Components/Home';
 import Women from './Components/Women';
 import Men from './Components/Men'
 import Kids from './Components/Kids';
-import Info from './Components/Info';
+import ContactUs from './Components/ContactUs';
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./Components/Navbar";
 
@@ -24,7 +24,7 @@ function App() {
         <Route path='men' element={<Men />} />
         <Route path='kids' element={<Kids />} />
         <Route path='signin' element={<Login />} />
-        <Route path='info' element={<Info />} />
+        <Route path='info' element={<ContactUs/>} />
       </Routes>
     </>
   );

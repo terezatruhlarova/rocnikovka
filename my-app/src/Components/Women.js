@@ -3,7 +3,9 @@ import "../Styles/Women.css"
 
  function Women(){
     return(
-        <p>ahoj</p>
+        <div>
+            
+        </div>
     );
 }
 

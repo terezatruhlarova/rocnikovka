@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
 
-p{
- font-family: 'Poppins', sans-serif;
- font-size: 22px;
- justify-content: center;
- text-align: center;
- margin-top: 60px;
+.contact{
+  width: 100px;
+  margin-left: 300px;
+  color: black;
 }
