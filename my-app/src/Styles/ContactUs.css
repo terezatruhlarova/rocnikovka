@@ -1,0 +1,42 @@
+.contact-us-content-page{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+}
+
+.contact-us-page{
+  width: 50%;
+  height: 70vh;
+  border: 1px solid red;
+  border-radius: 5px;
+}
+.contact-us-info{
+  border: 1px solid rgb(34, 255, 0);
+  border-radius: 5px;
+  height: 70vh;
+  width: 45%;
+  float: left;
+  border: 1;
+}
+
+.contact-us-content{
+  border: 1px solid rgb(255, 0, 0);
+  border-radius: 5px;
+  height: 70vh;
+  width: 45%;
+  float: right;
+  display: flex;
+  align-items: center;
+}
+
+.title-contact {
+  font-size: 28px;
+  padding: 10px;
+  margin-left: 5px;
+}
+.username{
+  
+  border: transparent;
+}

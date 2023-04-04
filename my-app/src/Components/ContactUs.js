@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
-import emailjs from '@emailjs/browser';
-import "../Styles/Info.css"
+import emailjs, { send } from '@emailjs/browser';
+import "../Styles/ContactUs.css"
 
 function Info() 
      {
@@ -19,15 +19,24 @@ function Info()
       };
     
       return (
-        <form className='contact' ref={form} onSubmit={sendEmail}>
-          <label>Name</label>
-          <input type="text" name="user_name" />
-          <label>Email</label>
-          <input type="email" name="user_email" />
-          <label>Message</label>
-          <textarea name="message" />
-          <input type="submit" value="Send" />
-        </form>
+        <div>
+          <div className="contact-us-content-page">
+            <div className="contact-us-page">
+              <div className="contact-us-info">
+                <h1>Contact us</h1>
+                <p>ggggggggg </p>
+              </div>
+              <div className="contact-us-content">
+                <form className='contact' ref={form} onSubmit={sendEmail}>
+                  <input className='username' type="text" name="user_name" placeholder='Username'/>
+                  <input className='email' type="email" name="user_email"  placeholder='Email'/>      
+                  <textarea className='message'name="message" placeholder='Massage'/>
+                  <input type={'submit'} className="contact-us-btn" defaultValue={send}></input>
+                </form>
+              </div>
+          </div> 
+          </div>
+       </div>
       );
     };
 

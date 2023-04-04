@@ -7,30 +7,24 @@
     font-family: 'Titillium Web', sans-serif;
 }
 
-:root{
-    --mainColor: rgb(0, 0, 0);
-    --mainColorLight: rgb(0, 0, 0);
-    --secondaryColor: rgb(255, 255, 255);
-    --textColor: rgb(255, 255, 255);
-}
-
 header{
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 80px;
     padding: 0 2rem;
-    background-color: var(--mainColor);
-    color: var(--textColor);
+    background-color: rgb(31, 117, 94);
+    color: white;
 }
 
 nav a{
     margin: 0 2rem;
-    color: var(--textColor);
-    
+    color: white; 
+    font-size: 28px;
+    text-decoration: none;
 }
 nav a:hover{
-    color: var(--secondaryColor);
+    color: rgb(4, 59, 36);
 }
 
 header .nav-btn {
@@ -39,11 +33,12 @@ header .nav-btn {
     background: transparent;
     border: none;
     outline: none;
-    color: var(--textColor);
+    color: white;
     visibility: hidden;
     opacity: 0;
-    font-size: 1.8rem;
+    font-size: 28px;
 }
+
 
 @media only screen and (max-width: 1024px){
     header .nav-btn{
@@ -62,7 +57,7 @@ header .nav-btn {
         align-items: center;
         justify-content: center;
         gap: 1.5rem;
-        background-color: var(--mainColor);
+        background-color: rgb(31, 117, 94);
         transition: 1s;
         transform: translateY(-100vh);
     }
@@ -79,4 +74,5 @@ header .nav-btn {
     nav a{
         font-size: 2rem;
     }
+    
 }

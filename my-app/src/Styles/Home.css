@@ -1,45 +1,36 @@
-.logo{
-    height: 350px;
-    margin-top: 170px;
-    margin-left: 220px;
-
+.txt{
+  margin-top: 90px;
+  color: black;
+  text-align: center;
+  font-size: 40px;
+}
+.txt-message{
+  margin-top: 60px;
+  color: black;
+  text-align: center;
+  font-size: 26px;
 }
 
-.logo2{
-    height: 350px;
-    margin-top: 170px;
-    margin-left: 220px;
-    
+.custom-shape-divider {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
 }
-.logo3{
-    height: 350px;
-    margin-top: 170px;
-    margin-left: 220px;
-   
+
+.custom-shape-divider svg {
+  position: relative;
+  display: block;
+  width: calc(144% + 1.3px);
+  height: 500px;
 }
-.logo:hover {
-    transform: scale(1.2); 
-    transition: transform 0.2s ease-in-out; 
-  }
-.logo2:hover {
-    transform: scale(1.2); 
-    transition: transform 0.2s ease-in-out; 
-  }
-.logo3:hover {
-    transform: scale(1.2); 
-    transition: transform 0.2s ease-in-out; 
-  }
-  img {
-    border: 5px solid red;
-    background-color: black;
-  }
- p{
-    position: absolute;
-    top: 50%
- }
- .WOMEN{
-    position: absolute;
-    text-align: center;
-    margin-top: 240px;
-    margin-left: 240px;
- }
+
+.custom-shape-divider .shape-fill {
+  fill: #1F755D;
+}
+.dress{
+  width: 190px;
+}
