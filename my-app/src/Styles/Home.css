@@ -1,36 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
 .txt{
   margin-top: 90px;
   color: black;
   text-align: center;
   font-size: 40px;
+  font-family: 'Francois One', sans-serif;
 }
 .txt-message{
-  margin-top: 60px;
+  margin-top: 70px;
+  padding: 40px;
   color: black;
   text-align: center;
   font-size: 26px;
+  font-family: 'Francois One', sans-serif;
+}
+.home-page-links{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.home-women{
+box-shadow: 2px 2px 23px rgb(203, 163, 110);;
+}
+.home-men{
+  box-shadow: 2px 2px 23px rgb(203, 163, 110);
+  margin-left: 1em;
+  margin-right: 1em;
+  }
+  .home-kids{
+    box-shadow: 2px 2px 23px rgb(203, 163, 110);;
+    }
+.home-women:hover {
+  transform: scale(1.1); 
+  transition: transform 0.2s ease-in-out;
 }
 
-.custom-shape-divider {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-  transform: rotate(180deg);
+.home-men:hover {
+  transform: scale(1.1); 
+  transition: transform 0.2s ease-in-out;
 }
 
-.custom-shape-divider svg {
-  position: relative;
-  display: block;
-  width: calc(144% + 1.3px);
-  height: 500px;
+.home-kids:hover {
+  transform: scale(1.1); 
+  transition: transform 0.2s ease-in-out;
 }
 
-.custom-shape-divider .shape-fill {
-  fill: #1F755D;
+@media (max-width: 1000px) {
+  .home-men{
+    margin: 0;
+  }
+  .home-page-links {
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+  }
 }
-.dress{
-  width: 190px;
-}
+
+
+

@@ -3,7 +3,7 @@ import './App.css';
 import Login from './Components/Login';
 import React from 'react';
 import Home from './Components/Home';
-
+import Footer from './Components/Footer';
 import Women from './Components/Women';
 import Men from './Components/Men'
 import Kids from './Components/Kids';
@@ -26,6 +26,7 @@ function App() {
         <Route path='login' element={<Login />} />
         <Route path='contactus' element={<ContactUs/>} />
       </Routes>
+      <Footer/>
     </>
   );
 }
