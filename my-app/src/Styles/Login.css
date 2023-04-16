@@ -1,2 +1,60 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+.username-login{
+  border: none;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  border-radius: 0.25em;
+  text-align: center;
+  padding: 2em;
+  border: none;
+  outline: none;
+  margin-top: 1.5em;
+}
+.psw-login{
+  border: none;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  border-radius: 0.25em;
+  text-align: center;
+  padding: 2em;
+  font-size: 12px;
+  outline: none;
+  margin-top: 1.5em;
+  border-top: 2px solid grey;
+}
+.btn-login{
+  display: flex;
+  cursor: pointer;
+  background: rgb(0, 0, 0);
+  color: white;
+  padding: 12px 50px;
+  border-radius: 5px;
+  margin-top: 1em;
+  margin-left: 225px;
+}
+.h1-login{
+  height: 30px;
+  margin-top: 20px;
+ text-align: center;
+ color: rgb(14,14,14);
+}
+.login-page-content{
+    max-width: 600px;
+    margin: auto;
+    margin-top: 5em;
+    padding: 20px 10px;
+    overflow: hidden;
+    border-radius: 5px;
+    display: block;
+    box-sizing: border-box;
+    border: 2px solid grey;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 4px grey;
+}
+@media only screen and (max-width: 600px) {
+  .btn-login{
+    float: right;
+  }
+  
+}
 

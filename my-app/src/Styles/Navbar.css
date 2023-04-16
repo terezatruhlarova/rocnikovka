@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,300;0,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
 *{
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
+
 
 header{
     display: flex;
@@ -13,18 +14,18 @@ header{
     justify-content: space-between;
     height: 80px;
     padding: 0 2rem;
-    background-color: rgb(203, 163, 110);
+    background-color: #333;
     color: white;
 }
 
 nav a{
     margin: 0 2rem;
     color: white; 
-    font-size: 28px;
+    font-size: 20px;
     text-decoration: none;
 }
 nav a:hover{
-    color: rgb(167, 123, 64);
+    color: #232020;
 }
 
 header .nav-btn {
@@ -37,6 +38,12 @@ header .nav-btn {
     visibility: hidden;
     opacity: 0;
     font-size: 28px;
+}
+
+@media only screen and (max-width: 1128px){
+    nav a{
+        font-size: 17px;
+    }
 }
 
 
@@ -57,9 +64,9 @@ header .nav-btn {
         align-items: center;
         justify-content: center;
         gap: 1.5rem;
-        background-color: rgb(203, 163, 110);
+        background-color: #333;
         transition: 1s;
-        transform: translateY(-100vh);
+        transform: translateY(-120vh);
     }
 
     header .responsive_nav{

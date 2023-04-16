@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Montserrat:wght@300&display=swap');
+
 .contact-us-content-page{
   display: flex;
   justify-content: center;
@@ -5,38 +7,119 @@
   height: 100vh;
   align-items: center;
 }
-
 .contact-us-page{
-  width: 50%;
-  height: 70vh;
-  border: 1px solid red;
-  border-radius: 5px;
+  display: flex;
+  width: 65%;
+  background-color: grey;
+  border: 2px solid grey;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 4px grey;
 }
 .contact-us-info{
-  border: 1px solid rgb(34, 255, 0);
-  border-radius: 5px;
+  padding: 30px;
+  margin-left: 20px;
   height: 70vh;
   width: 45%;
   float: left;
-  border: 1;
+  color: #000000;
+  font-family: 'Montserrat', sans-serif;
+  
 }
 
+.contact-us-info-text{
+  font-family: 'Dongle', sans-serif;
+  font-size: 18px;
+  color: #000000;
+  text-shadow: 2px 2px #9b7254
+}
 .contact-us-content{
-  border: 1px solid rgb(255, 0, 0);
-  border-radius: 5px;
   height: 70vh;
   width: 45%;
   float: right;
   display: flex;
   align-items: center;
+  
 }
 
-.title-contact {
-  font-size: 28px;
+.contact-us-contact{
+  flex-direction: column;
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+.name{
+  display: flex;
   padding: 10px;
-  margin-left: 5px;
+  width: 280px;
+  height: 60px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  text-align: center;
+  justify-content: center;
 }
-.username{
-  
-  border: transparent;
+.email{
+  display: flex;
+  padding: 10px;
+  width: 280px;
+  height: 60px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
+.message{
+  display: flex;
+  padding: 10px;
+  width: 280px;
+  height: 100px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.contact-us-btn{
+  display: flex;
+  cursor: pointer;
+  background: rgb(0, 0, 0);
+  color: white;
+  padding: 12px 50px;
+  border-radius: 5px;
+  margin-top: 1em;
+}
+.contact-us-photo{
+  display: block;
+  margin: 0 auto;
+  height: auto;
+}
+
+@media (max-width: 580px) {
+  .name{
+    width: 150px;
+    margin-right: 100px;
+  }
+  .email{
+    width: 150px;
+    margin-right: 100px;
+  }
+  .message{
+    width: 150px;
+    margin-right: 100px;
+  }
+  .contact-us-btn{
+    margin-right: 100px;
+  }
+  .contact-us-photo{
+    width: 200px;
+    height: 290px;
+    margin-top: 60px;
+    margin-left: -25%;
+  }
+ 
+  }
+  @media (max-width: 1246px){
+    .contact-us-photo{
+      margin-top: 10px;
+      height: 390px;
+    }
+  }

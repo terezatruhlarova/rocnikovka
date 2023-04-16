@@ -14,17 +14,17 @@ function Navbar(){
     }
     return(
         <header>
-            <h3>SHINE</h3>
+            <h1>STUNNING</h1>
             <nav ref={navRef}>
-                <a href="/">Home</a>
-                <a href="/women">Women</a>
-                <a  href="/men">Men</a>
-                <a className="kids" href="/kids">Kids</a>
-                <a className="" href="/contactus">Contact Us</a>
-                <a className="login" href="/login">Login</a>
-                <button className="nav-btn nav-close-btn" onClick={showNavbar}>
-                    <FaTimes/>
-                </button>
+                    <a href="/">Home</a>
+                    <a href="/women">Women</a>
+                    <a  href="/men">Men</a>
+                    <a className="kids" href="/kids">Kids</a>
+                    <a className="" href="/contactus">Contact Us</a>
+                    <a className="login" href="/login">Login</a>
+                    <button className="nav-btn nav-close-btn" onClick={showNavbar}>
+                        <FaTimes/>
+                    </button>
             </nav>
             <button className="nav-btn" onClick={showNavbar}>
                 <FaBars/>

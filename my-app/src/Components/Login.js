@@ -7,13 +7,15 @@ function Login(){
 
     return (
         <div>
-          <div className="cover">
-              <h1>Login</h1>
-              <form className="contact-form-login" method="get">
-              <input className='user-name' type="text" placeholder="Username" />
-              <input className='psw' type="password" placeholder="Password" />
-              <input type="Submit"  className="contact-form-btn-login" defaultValue="Send" />
+          <div className="login-page">
+            <div className="login-page-content">
+              <h1 className="h1-login">Login</h1>
+              <form className="login-info" method="get">
+              <input className='username-login' type="text" placeholder="Username" />
+              <input className='psw-login' type="password" placeholder="Password" />
+                <input type="Submit"  className="btn-login" defaultValue="Send" />
               </form>
+              </div>
           </div>
         </div>
       );

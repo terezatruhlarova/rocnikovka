@@ -1,15 +1,16 @@
 
 import './App.css';
-import Login from './Components/Login';
 import React from 'react';
+import Login from './Components/Login';
 import Home from './Components/Home';
 import Footer from './Components/Footer';
 import Women from './Components/Women';
 import Men from './Components/Men'
 import Kids from './Components/Kids';
 import ContactUs from './Components/ContactUs';
-import { Routes, Route } from "react-router-dom";
 import Navbar from "./Components/Navbar";
+import { Routes, Route } from "react-router-dom";
+
 
 
 
