@@ -1,0 +1,9 @@
+.AddToCart-btn{
+  margin-top: 20px;
+  display: flex;
+  cursor: pointer;
+  background: rgb(170, 168, 168);
+  color: rgb(0, 0, 0);
+  padding: 12px 50px;
+  border-radius: 5px;
+}

@@ -1,27 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
-
-.women-title{
+.men-title{
     font-size: 30px;
     text-align: center;
     margin-top: 40px;
 }
-.women-tops-items{
+.men-tops-items{
     display: inline-block;
     margin-left: 55px;
     margin-top: 30px;
 }
-.women-bottoms-items{
+.men-bottoms-items{
     display: inline-block;
     margin-left: 55px;
     margin-top: 30px;
 }
-.women-shoes-items{
+.men-shoes-items{
     display: inline-block;
     margin-left: 55px;
     margin-top: 30px;
 }
-.women-tops-info{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-}
-

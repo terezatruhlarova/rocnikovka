@@ -21,7 +21,7 @@ header{
 nav a{
     margin: 0 2rem;
     color: white; 
-    font-size: 20px;
+    font-size: 19;
     text-decoration: none;
 }
 nav a:hover{
@@ -39,10 +39,16 @@ header .nav-btn {
     opacity: 0;
     font-size: 28px;
 }
+.cart{
+    margin-left: 50px;
+}
 
 @media only screen and (max-width: 1128px){
     nav a{
-        font-size: 17px;
+        font-size: 15px;
+    }
+    .title{
+        font-size: 20px;
     }
 }
 

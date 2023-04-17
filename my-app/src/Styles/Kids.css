@@ -1,27 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
-.women-title{
+.kid-tops-items{
+    display: inline-block;
+    margin-left: 55px;
+    margin-top: 30px;
+}
+.kid-sets-items{
+    display: inline-block;
+    margin-left: 55px;
+    margin-top: 30px;
+}
+.kid-sets-info{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+.kid-tops-info{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+.kids-title{
     font-size: 30px;
     text-align: center;
     margin-top: 40px;
 }
-.women-tops-items{
-    display: inline-block;
-    margin-left: 55px;
-    margin-top: 30px;
-}
-.women-bottoms-items{
-    display: inline-block;
-    margin-left: 55px;
-    margin-top: 30px;
-}
-.women-shoes-items{
-    display: inline-block;
-    margin-left: 55px;
-    margin-top: 30px;
-}
-.women-tops-info{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-}
-

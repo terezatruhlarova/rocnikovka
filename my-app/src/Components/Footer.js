@@ -9,7 +9,7 @@ function Footer() {
             <div className="footer-info">
               <p>Tereza Truhlářová</p>
               <p>Email: teriinaa.teriinaa@gmail.com</p>
-              <a href="https://www.instagram.com/teriinaa.teriinaa/" className="instagram-link">
+              <a href="https://www.instagram.com/teriinaa.teriinaa/" className="instagram-link" target="blank" rel="noopener">
                 Follow me on Instagram
               </a>
             </div>
