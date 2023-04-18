@@ -20,7 +20,7 @@ function Navbar(){
                     <a href="/women">Women</a>
                     <a  href="/men">Men</a>
                     <a className="kids" href="/kids">Kids</a>
-                    <a className="" href="/contactus">Contact Us</a>
+                    <a className="contactus" href="/contactus">Contact Us</a>
                     <a className="login" href="/login">Login</a>
                     <a className="cart" href="/cart"><FaCartPlus/></a>
                     <button className="nav-btn nav-close-btn" onClick={showNavbar}>

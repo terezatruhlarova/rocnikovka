@@ -21,7 +21,7 @@ function Kids(){
            </div> 
            <div className="kid-tops-items">
            <div className="kid-tops-photos">
-              <img src={KidsTop1} width="310" height="390" itemID='1' alt=""/>
+              <img src={KidsTop1} width="310" height="390" itemID='1' alt="Dream maker red t-shirt"/>
               </div>
              <div className="women-tops-info">
               <p>California T-shirt</p>
