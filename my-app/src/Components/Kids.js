@@ -20,10 +20,10 @@ import KidsBottoms5 from "../img/kids-bottoms_5.PNG";
 import KidsBottoms6 from "../img/kids-bottoms_6.PNG";
 import KidsBottoms7 from "../img/kids-bottoms_7.PNG";
 import KidsBottoms8 from "../img/kids-bottoms_8.PNG";
-import KidsDress1 from "../img/kids-set_1.PNG";
-import KidsDress2 from "../img/kids-set_2.PNG";
-import KidsDress3 from "../img/kids-set_3.PNG";
-import KidsDress4 from "../img/kids-set_4.PNG";
+import KidsDress1 from "../img/kids-dress_1.PNG";
+import KidsDress2 from "../img/kids-dress_2.PNG";
+import KidsDress3 from "../img/kids-dress_3.PNG";
+import KidsDress4 from "../img/kids-dress_4.PNG";
 
 import AddToCartButton from "./AddToCart";
 
