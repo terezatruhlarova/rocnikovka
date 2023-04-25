@@ -19,14 +19,16 @@ import AddToCartButton from "./AddToCart";
         <div>
             <div className="women-page"> 
              <div className="women-title">
-                <h4>T-shirts/Tops</h4>
+                <h3>T-shirts/Tops</h3>
              </div> 
              <div className="women-tops-items">
              <div className="women-tops-photos">
                 <img src={WomanTop1} width="310" height="390" alt=""/>
                 </div>
                <div className="women-tops-info">
-                <p>California T-shirt</p>
+                <h4>California T-shirt</h4>
+                <p>Avaliable size: XS, S, M, L</p>
+                <h4>prize: 18$</h4>
                 <AddToCartButton/>
                </div>
              </div>
@@ -35,7 +37,9 @@ import AddToCartButton from "./AddToCart";
                 <img src={WomanTop2} width="310" height="390" alt="" />
                 </div>
                <div className="women-tops-info">
-                <p>Los Angeles T-shirt</p>
+                <h4>Los Angeles T-shirt</h4>
+                <p>Avaliable size: XS, S, M, L</p>
+                <h4>prize: 16$</h4>
                 <AddToCartButton/>
                </div>
              </div>
@@ -44,7 +48,9 @@ import AddToCartButton from "./AddToCart";
                 <img src={WomanTop3} width="310" height="390" alt="" />
                 </div>
                <div className="women-tops-info">
-                <p>Los Angeles T-shirt</p>
+               <h4>Casual black top</h4>
+                <p>Avaliable size: XS, S, M, L</p>
+                <h4>prize: 19$</h4>
                 <AddToCartButton/>
                </div>
              </div>
@@ -53,7 +59,9 @@ import AddToCartButton from "./AddToCart";
                 <img src={WomanTop4} width="310" height="390" alt="" />
                 </div>
                <div className="women-tops-info">
-                <p>Los Angeles T-shirt</p>
+               <h4>Brown shirt</h4>
+                <p>Avaliable size: XS, S, M, L</p>
+                <h4>prize: 20$</h4>
                 <AddToCartButton/>
                </div>
              </div>
@@ -65,7 +73,9 @@ import AddToCartButton from "./AddToCart";
                 <img src={WomanBottom1} width="310" height="390" alt=""/>
                 </div>
                <div className="women-bottoms-info">
-                <p>California T-shirt</p>
+               <h4>Flap Pocket Side Cargo Trousers</h4>
+                <p>Avaliable size: XS, S, M, L</p>
+                <h4>prize: 21$</h4>
                 <AddToCartButton/>
                </div>
              </div>
@@ -74,7 +84,9 @@ import AddToCartButton from "./AddToCart";
                 <img src={WomanBottom2} width="310" height="390" alt="" />
                 </div>
                <div className="women-bottoms-info">
-                <p>Los Angeles T-shirt</p>
+               <h4>Wide Waistband Flare Leg Trousers</h4>
+                <p>Avaliable size: XS, S, M, L</p>
+                <h4>prize: 20$</h4>
                 <AddToCartButton/>
                </div>
              </div>
@@ -83,7 +95,9 @@ import AddToCartButton from "./AddToCart";
                 <img src={WomanBottom3} width="310" height="390" alt="" />
                 </div>
                <div className="women-bottoms-info">
-                <p>Los Angeles T-shirt</p>
+               <h4>Elegant long black pants</h4>
+                <p>Avaliable size: XS, S, M, L</p>
+                <h4>prize: 28$</h4>
                 <AddToCartButton/>
                </div>
              </div>
@@ -92,7 +106,9 @@ import AddToCartButton from "./AddToCart";
                 <img src={WomanBottom4} width="310" height="390" alt="" />
                 </div>
                <div className="women-bottoms-info">
-                <p>Los Angeles T-shirt</p>
+               <h4>Grey sweatpants</h4>
+                <p>Avaliable size: XS, S, M, L</p>
+                <h4>prize: 19$</h4>
                 <AddToCartButton/>
                </div>
              </div>
@@ -104,7 +120,9 @@ import AddToCartButton from "./AddToCart";
                 <img src={WomanShoes1} width="310" height="390" alt=""/>
                 </div>
                <div className="women-shoes-info">
-                <p>California T-shirt</p>
+               <h4>White Plain Chunky High Heels</h4>
+                <p>Avaliable size: 36, 37, 38, 39, 40</p>
+                <h4>prize: 29$</h4>
                 <AddToCartButton/>
                </div>
              </div>
@@ -113,7 +131,9 @@ import AddToCartButton from "./AddToCart";
                 <img src={WomanShoes2} width="310" height="390" alt="" />
                 </div>
                <div className="women-shoes-info">
-                <p>Los Angeles T-shirt</p>
+               <h4>Summer women slippers</h4>
+                <p>Avaliable size: 36, 37, 38, 39, 40</p>
+                <h4>prize: 25$</h4>
                 <AddToCartButton/>
                </div>
                </div>
@@ -122,7 +142,9 @@ import AddToCartButton from "./AddToCart";
                 <img src={WomanShoes3} width="310" height="390" alt="" />
                 </div>
                <div className="women-shoes-info">
-                <p>Los Angeles T-shirt</p>
+               <h4>White Walking Shoes</h4>
+                <p>Avaliable size: 36, 37, 38, 39, 40</p>
+                <h4>prize: 27$</h4>
                 <AddToCartButton/>
                </div>
             </div>
@@ -131,7 +153,9 @@ import AddToCartButton from "./AddToCart";
                 <img src={WomanShoes4} width="310" height="390" alt="" />
                 </div>
                <div className="women-shoes-info">
-                <p>Los Angeles T-shirt</p>
+               <h4>Hook-and-loop Fastener Sport Sandals</h4>
+                <p>Avaliable size: 36, 37, 38, 39, 40</p>
+                <h4>prize: 18$</h4>
                 <AddToCartButton/>
                </div> 
               </div> 

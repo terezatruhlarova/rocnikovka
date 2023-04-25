@@ -1,5 +1,5 @@
 import React from "react";
-import {FaBars, FaTimes, FaCartPlus} from "react-icons/fa"
+import {FaBars, FaTimes} from "react-icons/fa"
 import { useRef } from "react";
 import "../Styles/Navbar.css";
 
@@ -22,7 +22,6 @@ function Navbar(){
                     <a className="kids" href="/kids">Kids</a>
                     <a className="contactus" href="/contactus">Contact Us</a>
                     <a className="login" href="/login">Login</a>
-                    <a className="cart" href="/cart"><FaCartPlus/></a>
                     <button className="nav-btn nav-close-btn" onClick={showNavbar}>
                     
                         <FaTimes/>

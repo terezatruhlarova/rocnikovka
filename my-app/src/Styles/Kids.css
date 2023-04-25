@@ -12,11 +12,29 @@
 }
 .kid-sets-info{
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+    font-size: 16px;
 }
 .kid-tops-info{
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+    font-size: 16px;
+}
+.kid-bottoms-items{
+    display: inline-block;
+    margin-left: 55px;
+    margin-top: 30px;
+}
+.kid-dress-items{
+    display: inline-block;
+    margin-left: 55px;
+    margin-top: 30px;
+}
+.kid-bottoms-info{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+.kid-dress-info{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
 }
 .kids-title{
     font-size: 30px;

@@ -26,7 +26,9 @@ const Men = () => {
                 <img src={MenTop1} width="310" height="390" alt=""/>
                 </div>
                <div className="men-tops-info">
-                <p>California T-shirt</p>
+               <h4>Striped and letter graphic T-shirt</h4>
+                <p>Avaliable size: XS, S, M, L</p>
+                <h4>prize: 18$</h4>
                 <AddToCartButton/>
                </div>
              </div>
@@ -35,7 +37,9 @@ const Men = () => {
                 <img src={MenTop2} width="310" height="390" alt="" />
                 </div>
                <div className="men-tops-info">
-                <p>Los Angeles T-shirt</p>
+               <h4>Solid Button Up Shirt</h4>
+                <p>Avaliable size: XS, S, M, L</p>
+                <h4>prize: 18$</h4>
                 <AddToCartButton/>
                </div>
              </div>
@@ -44,7 +48,9 @@ const Men = () => {
                 <img src={MenTop3} width="310" height="390" alt="" />
                 </div>
                <div className="men-tops-info">
-                <p>Los Angeles T-shirt</p>
+               <h4>Cartoon t-shirt with graphic logo</h4>
+                <p>Avaliable size: XS, S, M, L</p>
+                <h4>prize: 18$</h4>
                 <AddToCartButton/>
                </div>
              </div>
@@ -53,7 +59,9 @@ const Men = () => {
                 <img src={MenTop4} width="310" height="390" alt="" />
                 </div>
                <div className="men-tops-info">
-                <p>Los Angeles T-shirt</p>
+               <h4>Plaid Button Up Shirt</h4>
+                <p>Avaliable size: XS, S, M, L</p>
+                <h4>prize: 18$</h4>
                 <AddToCartButton/>
                </div>
              </div>
@@ -65,7 +73,9 @@ const Men = () => {
                 <img src={MenBottom1} width="310" height="390" alt=""/>
                 </div>
                <div className="men-bottoms-info">
-                <p>California T-shirt</p>
+               <h4>Multi-pocket Pants Outdoor Cargo</h4>
+                <p>Avaliable size: XS, S, M, L</p>
+                <h4>prize: 18$</h4>
                 <AddToCartButton/>
                </div>
              </div>
@@ -74,7 +84,9 @@ const Men = () => {
                 <img src={MenBottom2} width="310" height="390" alt="" />
                 </div>
                <div className="men-bottoms-info">
-                <p>Los Angeles T-shirt</p>
+               <h4>Men Letter Patched Cargo Trousers</h4>
+                <p>Avaliable size: XS, S, M, L</p>
+                <h4>prize: 18$</h4>
                 <AddToCartButton/>
                </div>
              </div>
@@ -83,7 +95,9 @@ const Men = () => {
                 <img src={MenBottom3} width="310" height="390" alt="" />
                 </div>
                <div className="men-bottoms-info">
-                <p>Los Angeles T-shirt</p>
+               <h4>Solid Zipper Fly Trousers</h4>
+                <p>Avaliable size: XS, S, M, L</p>
+                <h4>prize: 18$</h4>
                 <AddToCartButton/>
                </div>
              </div>
@@ -92,7 +106,9 @@ const Men = () => {
                 <img src={MenBottom4} width="310" height="390" alt="" />
                 </div>
                <div className="men-bottoms-info">
-                <p>Los Angeles T-shirt</p>
+               <h4>Men's shorts with drawstring waist</h4>
+                <p>Avaliable size: XS, S, M, L</p>
+                <h4>prize: 18$</h4>
                 <AddToCartButton/>
                </div>
              </div>
@@ -104,7 +120,9 @@ const Men = () => {
                 <img src={MenShoes1} width="310" height="390" alt=""/>
                 </div>
                <div className="men-shoes-info">
-                <p>California T-shirt</p>
+               <h4>Grey Men's Sneakers</h4>
+               <p>Avaliable size: 42, 43, 44, 45, 46</p>
+               <h4>prize: 18$</h4>
                 <AddToCartButton/>
                </div>
              </div>
@@ -113,7 +131,9 @@ const Men = () => {
                 <img src={MenShoes2} width="310" height="390" alt="" />
                 </div>
                <div className="men-shoes-info">
-                <p>Los Angeles T-shirt</p>
+               <h4>Black Men's Slippers</h4>
+               <p>Avaliable size: 42, 43, 44, 45, 46</p>
+               <h4>prize: 18$</h4>
                 <AddToCartButton/>
                </div>
                </div>
@@ -122,7 +142,9 @@ const Men = () => {
                 <img src={MenShoes3} width="310" height="390" alt="" />
                 </div>
                <div className="men-shoes-info">
-                <p>Los Angeles T-shirt</p>
+               <h4>Formal Black Shoes</h4>
+               <p>Avaliable size: 42, 43, 44, 45, 46</p>
+               <h4>prize: 18$</h4>
                 <AddToCartButton/>
                </div>
             </div>
@@ -131,7 +153,9 @@ const Men = () => {
                 <img src={MenShoes4} width="310" height="390" alt="" />
                 </div>
                <div className="men-shoes-info">
-                <p>Los Angeles T-shirt</p>
+               <h4>Orange Men's Sneakers</h4>
+               <p>Avaliable size: 42, 43, 44, 45, 46</p>
+               <h4>prize: 18$</h4>
                 <AddToCartButton/>
                </div> 
               </div> 
