@@ -28,7 +28,7 @@ const Men = () => {
                <div className="men-tops-info">
                <h4>Striped and letter graphic T-shirt</h4>
                 <p>Avaliable size: XS, S, M, L</p>
-                <h4>prize: 18$</h4>
+                <h4>prize: 22$</h4>
                 <AddToCartButton/>
                </div>
              </div>
@@ -39,7 +39,7 @@ const Men = () => {
                <div className="men-tops-info">
                <h4>Solid Button Up Shirt</h4>
                 <p>Avaliable size: XS, S, M, L</p>
-                <h4>prize: 18$</h4>
+                <h4>prize: 20$</h4>
                 <AddToCartButton/>
                </div>
              </div>
@@ -50,7 +50,7 @@ const Men = () => {
                <div className="men-tops-info">
                <h4>Cartoon t-shirt with graphic logo</h4>
                 <p>Avaliable size: XS, S, M, L</p>
-                <h4>prize: 18$</h4>
+                <h4>prize: 23$</h4>
                 <AddToCartButton/>
                </div>
              </div>
@@ -61,7 +61,7 @@ const Men = () => {
                <div className="men-tops-info">
                <h4>Plaid Button Up Shirt</h4>
                 <p>Avaliable size: XS, S, M, L</p>
-                <h4>prize: 18$</h4>
+                <h4>prize: 21$</h4>
                 <AddToCartButton/>
                </div>
              </div>
@@ -75,7 +75,7 @@ const Men = () => {
                <div className="men-bottoms-info">
                <h4>Multi-pocket Pants Outdoor Cargo</h4>
                 <p>Avaliable size: XS, S, M, L</p>
-                <h4>prize: 18$</h4>
+                <h4>prize: 25$</h4>
                 <AddToCartButton/>
                </div>
              </div>
@@ -86,7 +86,7 @@ const Men = () => {
                <div className="men-bottoms-info">
                <h4>Men Letter Patched Cargo Trousers</h4>
                 <p>Avaliable size: XS, S, M, L</p>
-                <h4>prize: 18$</h4>
+                <h4>prize: 23$</h4>
                 <AddToCartButton/>
                </div>
              </div>
@@ -97,7 +97,7 @@ const Men = () => {
                <div className="men-bottoms-info">
                <h4>Solid Zipper Fly Trousers</h4>
                 <p>Avaliable size: XS, S, M, L</p>
-                <h4>prize: 18$</h4>
+                <h4>prize: 24$</h4>
                 <AddToCartButton/>
                </div>
              </div>
@@ -108,7 +108,7 @@ const Men = () => {
                <div className="men-bottoms-info">
                <h4>Men's shorts with drawstring waist</h4>
                 <p>Avaliable size: XS, S, M, L</p>
-                <h4>prize: 18$</h4>
+                <h4>prize: 26$</h4>
                 <AddToCartButton/>
                </div>
              </div>
@@ -122,7 +122,7 @@ const Men = () => {
                <div className="men-shoes-info">
                <h4>Grey Men's Sneakers</h4>
                <p>Avaliable size: 42, 43, 44, 45, 46</p>
-               <h4>prize: 18$</h4>
+               <h4>prize: 21$</h4>
                 <AddToCartButton/>
                </div>
              </div>
@@ -133,7 +133,7 @@ const Men = () => {
                <div className="men-shoes-info">
                <h4>Black Men's Slippers</h4>
                <p>Avaliable size: 42, 43, 44, 45, 46</p>
-               <h4>prize: 18$</h4>
+               <h4>prize: 19$</h4>
                 <AddToCartButton/>
                </div>
                </div>
@@ -144,7 +144,7 @@ const Men = () => {
                <div className="men-shoes-info">
                <h4>Formal Black Shoes</h4>
                <p>Avaliable size: 42, 43, 44, 45, 46</p>
-               <h4>prize: 18$</h4>
+               <h4>prize: 23$</h4>
                 <AddToCartButton/>
                </div>
             </div>
@@ -155,7 +155,7 @@ const Men = () => {
                <div className="men-shoes-info">
                <h4>Orange Men's Sneakers</h4>
                <p>Avaliable size: 42, 43, 44, 45, 46</p>
-               <h4>prize: 18$</h4>
+               <h4>prize: 20$</h4>
                 <AddToCartButton/>
                </div> 
               </div> 
