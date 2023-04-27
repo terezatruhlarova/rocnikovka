@@ -21,6 +21,7 @@ import AddToCartButton from "./AddToCart";
              <div className="women-title">
                 <h3>T-shirts/Tops</h3>
              </div> 
+            <div className="women-tops-items-content">
              <div className="women-tops-items">
              <div className="women-tops-photos">
                 <img src={WomanTop1} width="310" height="390" alt=""/>
@@ -65,9 +66,11 @@ import AddToCartButton from "./AddToCart";
                 <AddToCartButton/>
                </div>
              </div>
+             </div>
              <div className="women-title">
                 <h4>Bottoms</h4>
              </div> 
+            <div className="women-bottoms-items-content">
              <div className="women-bottoms-items">
              <div className="women-bottoms-photos">
                 <img src={WomanBottom1} width="310" height="390" alt=""/>
@@ -112,9 +115,11 @@ import AddToCartButton from "./AddToCart";
                 <AddToCartButton/>
                </div>
              </div>
+            </div>
              <div className="women-title">
                 <h4>Shoes</h4>
              </div> 
+            <div className="women-shoes-items-content">
              <div className="women-shoes-items">
              <div className="women-shoes-photos">
                 <img src={WomanShoes1} width="310" height="390" alt=""/>
@@ -159,6 +164,7 @@ import AddToCartButton from "./AddToCart";
                 <AddToCartButton/>
                </div> 
               </div> 
+            </div>
            </div>
         </div>
     );

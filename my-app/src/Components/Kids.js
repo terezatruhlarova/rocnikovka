@@ -35,6 +35,7 @@ function Kids(){
               <h2>Boys</h2>
             <h3>Tops</h3>
            </div> 
+         <div className='kids-tops-items-content'>
            <div className="kid-tops-items">
            <div className="kid-tops-photos">
               <img src={KidsTop1} width="310" height="390" itemID='1' alt="Dream maker red t-shirt"/>
@@ -79,9 +80,11 @@ function Kids(){
               <AddToCartButton/>
              </div>
            </div>
+         </div>
            <div className="kids-title">
               <h4>Sets</h4>
            </div> 
+         <div className='kids-sets-items-content'>
            <div className="kid-sets-items">
            <div className="kid-sets-photos">
               <img src={KidsSet1} width="310" height="390" itemID='5' alt=""/>
@@ -126,9 +129,11 @@ function Kids(){
               <AddToCartButton/>
              </div>
            </div>
+         </div>
            <div className="kids-title">
               <h4>Bottoms</h4>
            </div> 
+           <div className='kids-bottoms-items-content'>
            <div className="kid-bottoms-items">
            <div className="kid-bottoms-photos">
               <img src={KidsBottoms1} width="310" height="390" itemID='8' alt="" />
@@ -173,10 +178,12 @@ function Kids(){
               <AddToCartButton/>
              </div>
            </div>
+         </div>
            <div className="kids-title">
               <h2>Girls</h2>
             <h4>Tops</h4>
            </div> 
+           <div className='kids-tops-items-content'>
            <div className="kid-tops-items">
            <div className="kid-tops-photos">
               <img src={KidsTop5} width="310" height="390" itemID='1' alt="Dream maker red t-shirt"/>
@@ -221,9 +228,11 @@ function Kids(){
               <AddToCartButton/>
              </div>
            </div>
+         </div>
            <div className="kids-title">
               <h4>Dress</h4>
            </div> 
+           <div className='kids-dress-items-content'>
            <div className="kid-dress-items">
            <div className="kid-dress-photos">
               <img src={KidsDress1} width="310" height="390" itemID='5' alt=""/>
@@ -268,9 +277,11 @@ function Kids(){
               <AddToCartButton/>
              </div>
            </div>
+         </div>
            <div className="kids-title">
               <h4>Bottoms</h4>
            </div> 
+           <div className='kids-bottoms-items-content'>
            <div className="kid-bottoms-items">
            <div className="kid-sets-photos">
               <img src={KidsBottoms5} width="310" height="390" itemID='8' alt="" />
@@ -317,6 +328,7 @@ function Kids(){
            </div>
          </div>
       </div>
+   </div>
   );
 }
 

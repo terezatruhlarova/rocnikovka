@@ -74,9 +74,9 @@
   margin-top: 1em;
 }
 .contact-us-photo{
-  display: block;
   margin: 0 auto;
   height: auto;
+  display: inline-block;
 }
 
 @media (max-width: 580px) {
@@ -109,3 +109,10 @@
       height: 390px;
     }
   }
+
+@media (max-height: 610px){
+  .contact-us-photo{
+    margin-top: 10px;
+    height: 290px;
+  }
+}

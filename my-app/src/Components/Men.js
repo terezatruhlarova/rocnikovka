@@ -21,6 +21,7 @@ const Men = () => {
              <div className="men-title">
                 <h4>T-shirts</h4>
              </div> 
+             <div className='men-tops-items-content'>
              <div className="men-tops-items">
              <div className="men-tops-photos">
                 <img src={MenTop1} width="310" height="390" alt=""/>
@@ -65,9 +66,11 @@ const Men = () => {
                 <AddToCartButton/>
                </div>
              </div>
+            </div>
              <div className="men-title">
                 <h4>Bottoms</h4>
              </div> 
+            <div className='men-bottoms-items-content'>
              <div className="men-bottoms-items">
              <div className="men-bottoms-photos">
                 <img src={MenBottom1} width="310" height="390" alt=""/>
@@ -112,9 +115,11 @@ const Men = () => {
                 <AddToCartButton/>
                </div>
              </div>
+            </div>
              <div className="men-title">
                 <h4>Shoes</h4>
              </div> 
+            <div className='men-shoes-items-content'>
              <div className="men-shoes-items">
              <div className="men-shoes-photos">
                 <img src={MenShoes1} width="310" height="390" alt=""/>
@@ -157,10 +162,11 @@ const Men = () => {
                <p>Avaliable size: 42, 43, 44, 45, 46</p>
                <h4>prize: 20$</h4>
                 <AddToCartButton/>
-               </div> 
+                </div> 
               </div> 
-           </div>
-        </div>
+            </div>
+         </div>
+      </div>
   )
 }
 
