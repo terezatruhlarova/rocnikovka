@@ -1,5 +1,6 @@
 # rocnikovka
-Jak spustit projekt
+Jak spustit projekt:
+
 Po forknutí z Githubu, otevřeme Visual Studio Code a vložíme do něj projekt.
 
 Otevřeme v projektu terminál.
